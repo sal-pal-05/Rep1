@@ -5,3 +5,11 @@ d=7
 f=8
 load(file="fish_data.Rdata")
 head(fish)
+tail(fish)
+fish$avg.DNE.m[7]="test"
+fish$avg.DNE.m
+class(fish$avg.DNE.m)
+fish$avg.DNE.m=as.integer(fish$avg.DNE.m)
+fish$avg.DNE.m
+class(fish$avg.DNE.m)
+fish$avg.DNE.m=as.character(fish$avg.DNE.m)
